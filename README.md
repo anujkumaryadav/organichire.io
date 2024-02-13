@@ -1,8 +1,3 @@
-# React + Vite
+# organichire.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+organichire.io is an innovative web application currently in development, designed to streamline and expedite the recruitment process. Our platform empowers recruiters to effortlessly post job listings and craft aptitude or technical round questions, whether multiple-choice or descriptive. With organichire.io, we aim to identify the most qualified candidates efficiently. Our platform offers proctored exams, ensuring a secure testing environment where candidates are unable to share screens, switch tabs, or connect external devices such as HDMI. Furthermore, organichire.io incorporates advanced machine learning features, including sentiment analysis of student responses, to enhance the recruitment experience.
