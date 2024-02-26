@@ -2,13 +2,26 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className='mt-44 items-center justify-center'>
-      <h1 className='text-center font-bold text-5xl text-gray-800'>
-        Welcome to Organichire<span className='text-blue-800'>.io</span>
-      </h1>
-      <p className='text-center text-xl text-gray-500 mx-56 mt-5'>
-        Elevate your recruitment process with organichire.io. Post jobs effortlessly, conduct secure proctored exams, and leverage advanced AI for sentiment analysis. Streamline hiring with confidence, ensuring efficiency and accuracy every step of the way.
+    <div class="text-center">
+      <p class="text-4xl md:text-5xl font-bold text-gray-800 mt-12 md:mt-36">
+        Welcome to recrutoz<span className='text-blue-800'>.io</span>
       </p>
+      <p class="text-base md:text-lg font-semibold text-gray-500 mx-3 md:mx-20 p-5 md:p-10">
+        Elevate your recruitment process with recrutoz.io. Post jobs effortlessly, conduct secure proctored exams, and leverage advanced AI for sentiment analysis. Streamline hiring with confidence, ensuring efficiency and accuracy every step of the way.
+      </p>
+
+      <div class="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10 mt-5">
+        <a href="#services">
+          <button class="px-6 md:px-7 text-white bg-gray-700 rounded-md p-2 hover:bg-black">Get
+            Started
+          </button>
+        </a>
+          <a href="#services">
+            <button class="px-4 md:px-5 text-white bg-gray-900 rounded-md p-2 hover:bg-black">Explore
+              Services
+            </button>
+          </a>
+      </div>
     </div>
   )
 }
